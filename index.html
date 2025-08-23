@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body class="bg-[#f4f5f7] h-[100vh] flex flex-col justify-center items-center">
+    <div class="h-[130px] w-[300px] bg-[url(./assets/bg.png)] bg-cover flex justify-center items-center">
+        <img src="./assets/Group.png" alt="">
+    </div>
+    <form action="" class=" bg-white rounded-2xl p-8">
+        <div class="mt-5 w-[350px]">
+            <label class="font-semibold" for="">Mobile Number</label> <br>
+            <input type="text" placeholder="Enter your number" class="input mt-3 rounded-3xl bg-[#f4f5f7] w-full" id="mobile-number" />
+        </div>
+        <div class="mt-5">
+            <label class="font-semibold" for="">4 Digit Pin</label> <br>
+            <input type="text" placeholder="Enter 4 digit pin" class="input mt-3 rounded-3xl bg-[#f4f5f7] w-full" id="pin-number"/>
+        </div>
+        <button type="button"  class="btn mt-5 bg-[#1A77F2] text-white border-[#005fd8] rounded-3xl w-full" id="login-btn">
+            Login
+        </button>
+    </form>
+    <script src="./script.js"></script>
+</body>
+
+</html>
